@@ -5,7 +5,6 @@ import Presentacion from './Presentacion'
 import Clientes from  './Clientes'
 import Experiencia from './Experiencia'
 import Contacto from './Contacto'
-import { BrowserRouter as Router} from 'react-router-dom'
 import { Route, Switch , Link} from 'react-router-dom'
 
 function App() {
