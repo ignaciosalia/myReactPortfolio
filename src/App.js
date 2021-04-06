@@ -17,11 +17,8 @@ function App() {
         <Route path='/Clientes' component={Clientes}/>
         <Route path='/Experiencia' component={Experiencia}/>
         <Presentacion></Presentacion>
-        
       </Switch>
-      <Clientes></Clientes>
-      <Contacto></Contacto>
-      <Experiencia></Experiencia>
+      
       
     </div>
     /**TODO agragar React Bootstrap
