@@ -16,8 +16,8 @@ const Cabeza = () => {
                     <Nav>
                         <Nav.Link as={Link} to="/" >Home</Nav.Link>
                         <Nav.Link as={Link} to="/Clientes" >Clientes</Nav.Link>
-                        <Nav.Link href='/Contacto'>Contacto</Nav.Link>
-                        <Nav.Link href='./Experiencia'>Experiecia</Nav.Link>
+                        <Nav.Link as={Link} to="/Contacto" >Contacto</Nav.Link>
+                        <Nav.Link as={Link} to="/Experiencia" >Experiecia</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
