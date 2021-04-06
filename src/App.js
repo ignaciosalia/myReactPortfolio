@@ -6,7 +6,7 @@ import Clientes from  './Clientes'
 import Experiencia from './Experiencia'
 import Contacto from './Contacto'
 import { BrowserRouter as Router} from 'react-router-dom'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch , Link} from 'react-router-dom'
 
 function App() {
   /**Agregar los estilos con react bootstrap */
@@ -18,6 +18,9 @@ function App() {
         <Route path='/Clientes' component={Clientes}/>
         <Route path='/Experiencia' component={Experiencia}/>
         <Presentacion></Presentacion>
+        <Clientes></Clientes>
+        <Contacto></Contacto>
+        <Experiencia></Experiencia>
       </Switch>
       
     </div>
