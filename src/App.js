@@ -21,8 +21,8 @@ function App() {
         
       </Switch>
       <Clientes></Clientes>
-        <Contacto></Contacto>
-        <Experiencia></Experiencia>
+      <Contacto></Contacto>
+      <Experiencia></Experiencia>
       
     </div>
     /**TODO agragar React Bootstrap
