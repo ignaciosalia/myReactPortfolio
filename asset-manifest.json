@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ignaciosalia/myReactPortfolio/static/css/main.f3767a45.chunk.css",
+    "main.js": "/ignaciosalia/myReactPortfolio/static/js/main.2ce6f40d.chunk.js",
+    "main.js.map": "/ignaciosalia/myReactPortfolio/static/js/main.2ce6f40d.chunk.js.map",
+    "runtime-main.js": "/ignaciosalia/myReactPortfolio/static/js/runtime-main.caa15d06.js",
+    "runtime-main.js.map": "/ignaciosalia/myReactPortfolio/static/js/runtime-main.caa15d06.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/ignaciosalia/myReactPortfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.67cfd1e9.chunk.js": "/ignaciosalia/myReactPortfolio/static/js/2.67cfd1e9.chunk.js",
+    "static/js/2.67cfd1e9.chunk.js.map": "/ignaciosalia/myReactPortfolio/static/js/2.67cfd1e9.chunk.js.map",
+    "static/js/3.e3c2b3e0.chunk.js": "/ignaciosalia/myReactPortfolio/static/js/3.e3c2b3e0.chunk.js",
+    "static/js/3.e3c2b3e0.chunk.js.map": "/ignaciosalia/myReactPortfolio/static/js/3.e3c2b3e0.chunk.js.map",
+    "index.html": "/ignaciosalia/myReactPortfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/ignaciosalia/myReactPortfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f3767a45.chunk.css.map": "/ignaciosalia/myReactPortfolio/static/css/main.f3767a45.chunk.css.map",
+    "static/js/2.67cfd1e9.chunk.js.LICENSE.txt": "/ignaciosalia/myReactPortfolio/static/js/2.67cfd1e9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ignaciosalia/myReactPortfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.caa15d06.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.67cfd1e9.chunk.js",
+    "static/css/main.f3767a45.chunk.css",
+    "static/js/main.2ce6f40d.chunk.js"
+  ]
+}
