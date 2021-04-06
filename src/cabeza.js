@@ -4,6 +4,7 @@ import Container  from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Button from 'react-bootstrap/Button' //agregar en index.js e index.html los links de bootstrap para poder usarlo 
+import { Link } from "react-router-dom"
 
 const Cabeza = () => {
     return(
@@ -13,8 +14,8 @@ const Cabeza = () => {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link href='/'>Home</Nav.Link>
-                        <Nav.Link href='/Clientes'>Clientes</Nav.Link>
+                        <Nav.Link as={Link} to="/" >Home</Nav.Link>
+                        <Nav.Link as={Link} to="/Clientes" >Clientes</Nav.Link>
                         <Nav.Link href='/Contacto'>Contacto</Nav.Link>
                         <Nav.Link href='./Experiencia'>Experiecia</Nav.Link>
                     </Nav>

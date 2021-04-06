@@ -18,8 +18,6 @@ function App() {
         <Route path='/Experiencia' component={Experiencia}/>
         <Presentacion></Presentacion>
       </Switch>
-      
-      
     </div>
     /**TODO agragar React Bootstrap
      * la seccion de clientes y de informacion manejarla como cards de bootstrap

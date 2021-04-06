@@ -3,18 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom';
 
-
-
-ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
+/*React.DOM.render(
+    <Router>
       <App/>
-    </HashRouter>
-  </React.StrictMode>,
+    </Router>
+  ,
+  document.getElementById('root')
+);*/
+ReactDOM.render(
+  <Router>
+    <App/>
+  </Router>,
   document.getElementById('root')
 );
 
