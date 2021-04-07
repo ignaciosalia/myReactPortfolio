@@ -14,10 +14,10 @@ const Cabeza = () => {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link as={Link} to="/" >Home</Nav.Link>
-                        <Nav.Link as={Link} to="/Clientes" >Clientes</Nav.Link>
-                        <Nav.Link as={Link} to="/Contacto" >Contacto</Nav.Link>
-                        <Nav.Link as={Link} to="/Experiencia" >Experiecia</Nav.Link>
+                        <Nav.Link className="menuelement" as={Link} to="/" >Home</Nav.Link>
+                        <Nav.Link className="menuelement" as={Link} to="/Clientes" >Clientes</Nav.Link>
+                        <Nav.Link className="menuelement" as={Link} to="/Contacto" >Contacto</Nav.Link>
+                        <Nav.Link className="menuelement" as={Link} to="/Experiencia" >Experiecia</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

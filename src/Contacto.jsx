@@ -15,9 +15,9 @@ export default class Contacto extends React.Component{
                         <Col className="rowContactMember"> <Link to="/Experiencia">Experiencia</Link> </Col>
                         <Col className="rowContactMember"> <a href="https://www.facebook.com/JislCorp-293709961299868">Facebook</a> </Col>
                         <Col className="rowContactMember"> <a href="https://twitter.com/IgnacioSalia">Twitter</a> </Col>
+                        <Col className="rowContactMember"> <a href="https://www.linkedin.com/in/jorge-ignacio-salia-982686162/">Linkedin</a></Col>
                     </Row>
                 </Container>
-                <p className="textos">Sí toda via le faltan los detalles pero en esto links me encuentran :P</p>
             </div>
         );
     }

@@ -17,9 +17,20 @@ code {
     --color-subtitulo: rgb(255, 255, 255);
 }
 
+
+/*Agregar este a media query de desktop, en celular se ve muy grande*/
+
+.menuelement {
+    font-size: 2em;
+}
+
 .presentacion,
 .subtitulo,
-.textos {
+.textos,
+.cardtitle a,
+.cardtext,
+.cardfooter,
+.rowContactMember {
     font-family: 'DotGothic16', sans-serif;
 }
 
@@ -52,6 +63,15 @@ code {
     font-weight: bolder;
 }
 
+.cardtitle a {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.cardtext {
+    font-weight: bold;
+}
+
 .rowContactMember {
     text-align: center;
 }
@@ -68,3 +88,12 @@ code {
     border-radius: 1em;
     color: var(--color-titulo);
 }
+
+
+/*Todo: 
+        Aumentar el tamnio de letra de los elementos del menu agregar mi logo, se agrega el tamanio de letra pero es mejor para la version de escritorio
+        Listo dar estilo de letra a Clientes, mejorar apriencia de Links
+        dar estilo Contacto con fontawesome, agregar iconos bonitos
+        dar estilo a experiencia agregar el tipo de letra y mejorar la apariencia hacerla m[as atractiva
+            en esta pagina agregar resum corto con link a una pagina con informaci[on m[as amplia, presentar mi carrera en la universidad y
+            adem[as en mi vida profesional */
