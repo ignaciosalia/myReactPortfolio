@@ -9,6 +9,14 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+:root {
+    --fondo-nav: rgb(241, 247, 253, 0.4);
+    --fondo-opciones: rgba(75, 122, 168, 0.6);
+    --color-titulo: rgba(12, 43, 75);
+    --fondo-subsection: rgba(4, 69, 134, 0.7);
+    --color-subtitulo: rgb(255, 255, 255);
+}
+
 .presentacion,
 .subtitulo,
 .textos {
@@ -16,24 +24,47 @@ code {
 }
 
 .presentacion {
-    margin-left: 5%;
-    margin-right: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .yomero {
     font-size: 400%;
+    font-weight: bolder;
+    color: var(--color-titulo);
 }
 
 .queChingaosHago {
-    font-size: 150%;
+    font-size: 250%;
+    color: var(--color-titulo);
+}
+
+.redes {
+    margin-top: 10%;
+    padding: 1em;
+    background-color: var(--fondo-subsection);
+    border-radius: 1em;
+    color: var(--color-subtitulo);
 }
 
 .subtitulo {
-    font-size: 400%;
-    margin-left: 10%;
+    font-size: 300%;
+    font-weight: bolder;
 }
 
-.textos {
-    margin-left: 5%;
-    margin-right: 5%;
+.rowContactMember {
+    text-align: center;
+}
+
+.rowContactMember a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.servResume {
+    margin-top: 10%;
+    padding: 1em;
+    border-radius: 1em;
+    color: var(--color-titulo);
 }
