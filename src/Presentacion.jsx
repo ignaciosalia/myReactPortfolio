@@ -4,6 +4,7 @@ import ServicesResume from './ServicesResume'
 import Card from 'react-bootstrap/Card'
 import { Link } from 'react-router-dom'
 
+
 export default class Presentacion extends React.Component{
     render(){
         return(
@@ -16,7 +17,7 @@ export default class Presentacion extends React.Component{
                     <Card.Img variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                     <Card.Body>
                         <Card.Title className="cardtitle">
-                            <Link to="" > Mi carrera Profesional</Link>
+                            <Link to="/Carrera"> Mi carrera Profesional</Link>
                         </Card.Title>
                         <Card.Text className="cardtext">
                             Comencé mi carrera profesional y no he parado...

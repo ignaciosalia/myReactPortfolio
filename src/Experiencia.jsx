@@ -12,7 +12,7 @@ export default class Experiencia extends React.Component{
                     <Card.Img variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                     <Card.Body>
                         <Card.Title className="cardtitle">
-                            <Link to="" > Mi carrera Profesional</Link>
+                            <Link to="/Carrera" > Mi carrera Profesional</Link>
                         </Card.Title>
                         <Card.Text className="cardtext">
                             Comencé mi carrera profesional y no he parado...
@@ -26,7 +26,7 @@ export default class Experiencia extends React.Component{
                     <Card.Img variant="top" src={"https://unamglobal.unam.mx/wp-content/uploads/2017/05/LOGO-UNAM.png"} />
                     <Card.Body>
                         <Card.Title className="cardtitle">
-                            <Link to="" > UNAM FES Acatlan</Link>
+                            <Link to="/Carrera" > UNAM FES Acatlan</Link>
                         </Card.Title>
                         <Card.Text className="cardtext">
                             Mi paso por la mejor universidad de México:
