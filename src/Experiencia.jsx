@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom'
 export default class Experiencia extends React.Component{
     render(){
         return(
-            <>
             <CardGroup>
                 <Card style={{ width: '18rem', margin:'2em'}}>
                     <Card.Img variant="top" src={"https://unamglobal.unam.mx/wp-content/uploads/2017/05/LOGO-UNAM.png"} />
@@ -24,7 +23,7 @@ export default class Experiencia extends React.Component{
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem', margin:'2em'}}>
-                    <Card.Img variant="top" src={"https://unamglobal.unam.mx/wp-content/uploads/2017/05/LOGO-UNAM.png"} />
+                    <Card.Img variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                     <Card.Body>
                         <Card.Title className="cardtitle">
                             <Link to="" > Mi carrera Profesional</Link>
@@ -38,13 +37,6 @@ export default class Experiencia extends React.Component{
                     </Card.Body>
                 </Card>
             </CardGroup>
-            <div className="experiencia">
-                    <div className="community-manager">
-                        <a href=""><h2>CV</h2></a>
-                        <h3>Experiencia laboral previa</h3>
-                    </div>
-            </div>
-            </>
         );
     }
 }
