@@ -20,10 +20,6 @@ code {
 
 /*Agregar este a media query de desktop, en celular se ve muy grande*/
 
-.menuelement {
-    font-size: 2em;
-}
-
 .presentacion,
 .subtitulo,
 .textos,
@@ -89,10 +85,25 @@ code {
     color: var(--color-titulo);
 }
 
+@media screen and (min-width: 1000px) {
+    .menuelement {
+        font-size: 2em;
+    }
+    .yomero {
+        font-size: 8em;
+    }
+    .firstImpresion {
+        margin-bottom: none;
+    }
+    .myface {
+        width: 22em;
+    }
+}
+
 
 /*Todo: 
         Aumentar el tamnio de letra de los elementos del menu agregar mi logo, se agrega el tamanio de letra pero es mejor para la version de escritorio
-        Media query para landing page en desktop, y de las demás acciones
+        Listo Media query para landing page en desktop, y de las demás acciones
         Crear Sección Jomati, ejemplo de e-commerce
         Crear Sección Restaurtantes, hacer referencia a La era como ejemplo
         Crear sección Clientes fisicos

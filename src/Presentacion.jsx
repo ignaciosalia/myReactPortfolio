@@ -12,7 +12,7 @@ export default class Presentacion extends React.Component{
     render(){
         return(
             <div className="presentacion">
-                <Container>
+                <Container className="firstImpresion">
                     <Row>
                         <Col>
                         <div className="myself">
@@ -20,19 +20,17 @@ export default class Presentacion extends React.Component{
                             <p className="queChingaosHago">Creo sitios Web que atraen clientes</p>
                         </div>
                         </Col>
-                        <Col>
-                        <Card >
-                            <Card.Img  variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
+                        <Col md="auto" >
+                        <Card className="myface">
+                            <Card.Img   variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                             <Card.Body >
                                 <Card.Title className="cardtitle">
-                                    <Link to="/Carrera"> Mi carrera Profesional</Link>
+                                    <Link to="/Carrera"> Me dedico a crear experiencias en linea</Link>
                                 </Card.Title>
                                 <Card.Text className="cardtext">
-                                    Comencé mi carrera profesional y no he parado...
+                                    Ayudo a que ganes la confianza de tus clientes
                                 </Card.Text>
-                                <Card.Footer className="cardfooter">
-                                    En lo personal soy enfocado y dedicado, soy puntal y en el link puedes conocer más lo que hago...
-                                </Card.Footer>
+                               
                             </Card.Body>
                         </Card>
                         </Col>
