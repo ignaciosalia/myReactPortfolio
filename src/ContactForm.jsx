@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
+import Container  from 'react-bootstrap/Container'
+import Contacto from './Contacto'
 
 
 export default class ContactForm extends React.Component{
@@ -27,7 +29,8 @@ export default class ContactForm extends React.Component{
 
     handleSubmit(event){
         event.preventDefault();
-        this.setState({ status: "Enviando"});
+        this.setState({ status: "Fa"});
+        alert("Le siento está en Construcción, usa mis redes");
         axios({
             method: "POST",
             url:"http://localhost:5000/contact",
@@ -45,22 +48,26 @@ export default class ContactForm extends React.Component{
     render(){
         let buttonText = this.state.status;
         return(
-            <form action="">
+            <Container className="firstImpresion">
+                <form action="">
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name" className="cardtext">Name:</label>
                     <input type="text" id="name" value={this.state.name} onChange={this.handleChange.bind(this)} required />
                 </div>
                 <div>
-                    <label htmlFor="email">Email:</label>
+                    <label htmlFor="email" className="cardtext">Email:</label>
                     <input type="text" id="email" value={this.state.email} onChange={this.handleChange.bind(this)} required />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10" value={this.state.message} onChange={this.handleChange.bind(this)}
+                    <label htmlFor="message" className="cardtext">Message:</label>
+                    <textarea name="message" id="message" cols="70" rows="10" value={this.state.message} onChange={this.handleChange.bind(this)}
                      required/>
                 </div>
-                <button type="submit">{buttonText}</button>
-            </form>
+                <button type="submit" onClick={this.handleSubmit.bind(this)}>{buttonText}</button>
+             </form>
+             <Contacto></Contacto>
+            </Container>
+            
         );
     }
 }
