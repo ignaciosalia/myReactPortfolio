@@ -26,7 +26,8 @@ code {
 .cardtitle a,
 .cardtext,
 .cardfooter,
-.rowContactMember {
+.rowContactMember,
+.carrera {
     font-family: 'DotGothic16', sans-serif;
 }
 
@@ -59,6 +60,7 @@ code {
     font-weight: bolder;
 }
 
+.cardtitle p,
 .cardtitle a {
     font-size: 150%;
     font-weight: bolder;
@@ -83,6 +85,10 @@ code {
     padding: 1em;
     border-radius: 1em;
     color: var(--color-titulo);
+}
+
+.firstImpresion {
+    margin-top: 2em;
 }
 
 @media screen and (min-width: 1000px) {
@@ -117,7 +123,7 @@ code {
         Aumentar el tamnio de letra de los elementos del menu agregar mi logo, se agrega el tamanio de letra pero es mejor para la version de escritorio
         Listo Media query para landing page en desktop, y de las demás acciones
         Agregar fondo dínamico a la pagina 
-        Dar estilo al boton de acción de y crear una pagina de contacto , se encuentra un tutorial https://dev.to/michaelburrows/setup-a-contact-form-in-react-that-sends-email-using-node-js-50pi
+        Listo Dar estilo al boton de acción de y crear una pagina de contacto , se encuentra un tutorial https://dev.to/michaelburrows/setup-a-contact-form-in-react-that-sends-email-using-node-js-50pi
         Crear Sección Jomati, ejemplo de e-commerce
         Crear Sección Restaurtantes, hacer referencia a La era como ejemplo
         Crear sección Clientes fisicos

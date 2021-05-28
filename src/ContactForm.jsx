@@ -29,9 +29,9 @@ export default class ContactForm extends React.Component{
 
     handleSubmit(event){
         event.preventDefault();
-        this.setState({ status: "Fa"});
+        this.setState({ status: "Fallo :( "});
         alert("Le siento está en Construcción, usa mis redes");
-        axios({
+      /*  axios({
             method: "POST",
             url:"http://localhost:5000/contact",
             data: this.state,
@@ -42,7 +42,7 @@ export default class ContactForm extends React.Component{
             } else if(response.data.status === "faild"){
                 alert("Message faild");
             }
-        });
+        });*/
     }
 
     render(){
@@ -51,16 +51,16 @@ export default class ContactForm extends React.Component{
             <Container className="firstImpresion">
                 <form action="">
                 <div>
-                    <label htmlFor="name" className="cardtext">Name:</label>
+                    <label htmlFor="name" className="cardtext">Nombre: </label>
                     <input type="text" id="name" value={this.state.name} onChange={this.handleChange.bind(this)} required />
                 </div>
                 <div>
-                    <label htmlFor="email" className="cardtext">Email:</label>
+                    <label htmlFor="email" className="cardtext">Email:  </label>
                     <input type="text" id="email" value={this.state.email} onChange={this.handleChange.bind(this)} required />
                 </div>
                 <div>
-                    <label htmlFor="message" className="cardtext">Message:</label>
-                    <textarea name="message" id="message" cols="70" rows="10" value={this.state.message} onChange={this.handleChange.bind(this)}
+                    <label htmlFor="message" className="cardtext">Mensaje:  </label>
+                    <textarea name="message" id="message" cols="30" rows="10" value={this.state.message} onChange={this.handleChange.bind(this)}
                      required/>
                 </div>
                 <button type="submit" onClick={this.handleSubmit.bind(this)}>{buttonText}</button>

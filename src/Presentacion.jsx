@@ -4,7 +4,7 @@ import Clientes from './Clientes'
 import ContactForm from './ContactForm'
 import ServicesResume from './ServicesResume'
 import Card from 'react-bootstrap/Card'
-import { Link } from 'react-router-dom'
+import { Link } from     'react-router-dom'
 import Container  from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/col'
@@ -19,7 +19,7 @@ export default class Presentacion extends React.Component{
                         <Col>
                         <div className="myself">
                             <h1 className="yomero">Ignacio Salia</h1>
-                            <p className="queChingaosHago">Tus ideas importan, vamos a crear una Pagina web</p>
+                            <p className="queChingaosHago">Tus ideas importan, vamos a crear algo asombroso </p>
                             
                             <button className="butonContacto"> <Link to="/ContactForm"> ¿Comenzamos? </Link></button>
                         </div>
