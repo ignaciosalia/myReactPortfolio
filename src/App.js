@@ -10,6 +10,7 @@ import { Route, Switch , Link} from 'react-router-dom'
 import Carrera from './Carrera'
 import ContacForm from './ContactForm'
 import ContactForm from './ContactForm';
+import Jomati from './Jomati';
 
 function App() {
   /**Agregar los estilos con react bootstrap */
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Experiencia' component={Experiencia}/>
         <Route path='/Carrera' component={Carrera}/>
         <Route path='/ContactForm' component={ContactForm}/>
+        <Route path="/Jomati" component={Jomati}/>
         <Presentacion></Presentacion>
       </Switch>
     </div>

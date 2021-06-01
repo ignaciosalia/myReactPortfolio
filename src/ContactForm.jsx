@@ -42,7 +42,7 @@ export default class ContactForm extends React.Component{
             } else if(response.data.status === "faild"){
                 alert("Message faild");
             }
-        });*/
+        });*/   
     }
 
     render(){
