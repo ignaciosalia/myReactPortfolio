@@ -161,7 +161,7 @@ code {
 }
 
 .jomatiBody {
-    background-color: #f46c9d;
+    background-color: var(--jomati-color);
     height: 95%;
     width: 95%;
     margin-left: 2%;
