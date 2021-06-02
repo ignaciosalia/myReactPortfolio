@@ -32,19 +32,21 @@ code {
 .contacto-jomati,
 .descripcion-producto,
 .subtitulo-jomati,
-.conoce-jomati {
+.conoce-jomati,
+.nosotros-titulo-h4,
+.nosotros-descripcion {
     color: var(--color-subtitulo);
     font-family: var(--jomati-font);
 }
 
 .jomati {
     font-size: 7em;
-    float: right;
     margin-right: 1rem;
 }
 
 .linkJomati {
     font-size: 3em;
+    color: #f46c9d;
 }
 
 .linkJomati:hover {
@@ -53,6 +55,8 @@ code {
 
 .subtitulo-jomati {
     font-size: 2.5em;
+    float: right;
+    margin-top: 2em;
 }
 
 .product-card:hover {
@@ -65,11 +69,12 @@ code {
 }
 
 .main-product-description {
-    margin-top: -10rem;
+    margin-top: -15rem;
 }
 
 .piezas-titulo,
-.contacto-jomati {
+.contacto-jomati,
+.nosotros-titulo-h4 {
     font-size: 2em;
     text-align: center;
     margin-top: 2em;
@@ -97,6 +102,26 @@ code {
 .contacto-jomati {
     font-size: 1.5em;
     border: none;
+}
+
+.nosotros-jomati-div {
+    background-color: var(--color-hover-jomati);
+    margin-top: 2rem;
+    padding-bottom: 2em;
+}
+
+.nosotros-titulo-h4,
+.nosotros-descripcion {
+    color: var(--jomati-color);
+}
+
+.nosotros-descripcion {
+    background-color: white;
+}
+
+.nosotros-imagen {
+    width: 100%;
+    margin-top: -1rem;
 }
 
 .presentacion,
@@ -213,7 +238,8 @@ code {
         margin-bottom: 2em;
     }
     .jomatiMenu {
-        width: 90%;
+        width: 100%;
+        background-color: #f46c9d;
         margin-top: 2rem;
         visibility: visible;
     }
@@ -230,6 +256,13 @@ code {
     }
     .product-card {
         padding-bottom: 2em;
+    }
+    .nosotros-jomati-div {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .nosotros-titulo-h4 {
+        font-size: 4em;
     }
 }
 

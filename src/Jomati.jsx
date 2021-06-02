@@ -3,10 +3,13 @@ import axios from 'axios'
 import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
 import Container  from 'react-bootstrap/Container'
 import Contacto from './Contacto'
-import Nav from 'react-bootstrap/Nav'
+import  Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import "./index.css"
+
 
 export default class Jomati extends React.Component{
     render(){
@@ -14,11 +17,14 @@ export default class Jomati extends React.Component{
             <div className="jomatiBody">
                  <h1 className="jomati">JoMaTi</h1>
                  <h2 className="subtitulo-jomati">Le damos vida a tus Ideas!</h2>
-                 <Nav defaultActiveKey="/home" className="flex-column, jomatiMenu">
-                    <Nav.Link className="linkJomati">Home</Nav.Link>
-                    <Nav.Link className="linkJomati">Nosotros</Nav.Link>
-                    <Nav.Link className="linkJomati">Contacto</Nav.Link>
-                 </Nav>
+
+                 <Navbar className="jomatiMenu" sticky="top" expand="lg" bg="#f46c9d" >
+                     <Nav>
+                        <Nav.Link className="linkJomati">Home</Nav.Link>
+                        <Nav.Link className="linkJomati">Nosotros</Nav.Link>
+                        <Nav.Link className="linkJomati">Contacto</Nav.Link>
+                     </Nav>
+                 </Navbar>
                 <Container className="main-product-description">
                     <Row>
                         <Col className="product-card" xs={12} md={4}>
@@ -41,6 +47,11 @@ export default class Jomati extends React.Component{
                         </Col>
                     </Row>
                 </Container>
+                <div className="nosotros-jomati-div">
+                    <h4 className="nosotros-titulo-h4">Conocenos</h4>
+                    <p className="nosotros-descripcion">Jomati es una empresa familiar, fundada por 2 hermanas y un hermano, que movidos por la pandemía comenzaron esta aventura</p>
+                    <Image className="nosotros-imagen" src="https://i.pinimg.com/564x/44/92/84/44928437a0a80d3f50324efc5a902402.jpg"/>
+                </div>
                 <div className="redes-jomati">
                     <h4 className="contacto-jomati">Dinos Hola</h4>
                 </div>
