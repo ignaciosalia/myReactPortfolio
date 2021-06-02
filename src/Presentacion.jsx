@@ -34,7 +34,6 @@ export default class Presentacion extends React.Component{
                                 <Card.Text className="cardtext">
                                     Ayudo a que ganes la confianza de tus clientes
                                 </Card.Text>
-                               
                             </Card.Body>
                         </Card>
                         </Col>

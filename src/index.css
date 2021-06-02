@@ -15,16 +15,24 @@ code {
     --color-titulo: rgba(12, 43, 75);
     --fondo-subsection: rgba(4, 69, 134, 0.7);
     --color-subtitulo: rgb(255, 255, 255);
-    --color-hover-jomati: rgb(127, 243, 237);
+    --color-hover-jomati: rgba(77, 255, 246, 0.877);
     --jomati-font: 'Pattaya', sans-serif;
     --jomati-color: #f46c9d;
+}
+
+.jomatiBody {
+    background-color: var(--jomati-color);
+    height: 95%;
+    width: 100%;
 }
 
 .jomati,
 .linkJomati,
 .piezas-titulo,
 .contacto-jomati,
-.descripcion-producto {
+.descripcion-producto,
+.subtitulo-jomati,
+.conoce-jomati {
     color: var(--color-subtitulo);
     font-family: var(--jomati-font);
 }
@@ -32,7 +40,7 @@ code {
 .jomati {
     font-size: 7em;
     float: right;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 }
 
 .linkJomati {
@@ -41,6 +49,10 @@ code {
 
 .linkJomati:hover {
     color: var(--color-hover-jomati);
+}
+
+.subtitulo-jomati {
+    font-size: 2.5em;
 }
 
 .product-card:hover {
@@ -52,6 +64,10 @@ code {
     visibility: hidden;
 }
 
+.main-product-description {
+    margin-top: -10rem;
+}
+
 .piezas-titulo,
 .contacto-jomati {
     font-size: 2em;
@@ -61,7 +77,7 @@ code {
 
 .piezas-imagen {
     width: 20rem;
-    margin-left: 1rem;
+    margin-left: 0.1rem;
 }
 
 .descripcion-producto {
@@ -70,6 +86,17 @@ code {
 
 .descripcion-producto:hover {
     color: var(--jomati-color);
+}
+
+.contacto-jomati,
+.conoce-jomati {
+    background-color: var(--color-hover-jomati);
+    color: var(--jomati-color);
+}
+
+.contacto-jomati {
+    font-size: 1.5em;
+    border: none;
 }
 
 .presentacion,
@@ -160,13 +187,6 @@ code {
     margin-top: 2em;
 }
 
-.jomatiBody {
-    background-color: var(--jomati-color);
-    height: 95%;
-    width: 95%;
-    margin-left: 2%;
-}
-
 @media screen and (min-width: 1000px) {
     .firstimpresion {
         margin-bottom: -10em;
@@ -201,6 +221,15 @@ code {
         font-size: 4em;
         text-align: center;
         margin-top: 2em;
+    }
+    .main-product-description {
+        margin-top: 2em;
+    }
+    .contacto-jomati {
+        margin-bottom: 2em;
+    }
+    .product-card {
+        padding-bottom: 2em;
     }
 }
 
