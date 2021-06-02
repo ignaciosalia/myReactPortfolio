@@ -239,9 +239,10 @@ code {
     }
     .jomatiMenu {
         width: 100%;
-        background-color: #f46c9d;
+        background-color: white;
         margin-top: 2rem;
         visibility: visible;
+        color: white;
     }
     .queHacemos {
         font-size: 4em;
@@ -263,6 +264,15 @@ code {
     }
     .nosotros-titulo-h4 {
         font-size: 4em;
+    }
+    .nosotros-descripcion {
+        font-size: 2.5em;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .nosotros-imagen {
+        width: 70vw;
+        margin-left: 10vw;
     }
 }
 
