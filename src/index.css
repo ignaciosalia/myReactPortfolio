@@ -59,6 +59,34 @@ code {
     margin-top: 2em;
 }
 
+.typewriter h2 {
+    overflow: hidden;
+    border-right: .15em solid var(--color-hover-jomati);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    10% {
+        border-color: var(--color-hover-jomati)
+    }
+}
+
 .product-card:hover {
     background-color: var(--color-hover-jomati);
 }
@@ -236,6 +264,12 @@ code {
     }
     .mycontact {
         margin-bottom: 2em;
+    }
+    .jomati {
+        margin-left: 5vw;
+    }
+    .subtitulo-jomati {
+        margin-right: 5vw;
     }
     .jomatiMenu {
         width: 100%;

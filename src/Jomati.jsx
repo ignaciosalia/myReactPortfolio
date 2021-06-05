@@ -16,14 +16,15 @@ export default class Jomati extends React.Component{
         return(
             <div className="jomatiBody">
                  <h1 className="jomati">JoMaTi</h1>
-                 <h2 className="subtitulo-jomati">Le damos vida a tus Ideas!</h2>
-
+                 <div className="typewriter">
+                    <h2 className="subtitulo-jomati">Le damos vida a <br /> tus Ideas!</h2>
+                 </div>
                  <Navbar className="jomatiMenu" sticky="top" expand="lg" bg="#f46c9d" variant="primary">
-                     <Nav>
-                        <Nav.Link className="linkJomati">Home</Nav.Link>
-                        <Nav.Link className="linkJomati">Nosotros</Nav.Link>
-                        <Nav.Link className="linkJomati">Contacto</Nav.Link>
-                     </Nav>
+                         <Nav>
+                            <Nav.Link className="linkJomati">Home</Nav.Link>
+                            <Nav.Link className="linkJomati">Nosotros</Nav.Link>
+                            <Nav.Link className="linkJomati">Contacto</Nav.Link>
+                         </Nav>
                  </Navbar>
                 <Container className="main-product-description">
                     <Row>
