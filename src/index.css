@@ -159,8 +159,18 @@ code {
 .cardtext,
 .cardfooter,
 .rowContactMember,
-.carrera {
+.carrera,
+.subtitulo-clientes {
     font-family: 'DotGothic16', sans-serif;
+}
+
+.subtitulo-clientes {
+    color: var(--color-titulo);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .presentacion {
@@ -221,6 +231,8 @@ code {
 
 .firstImpresion {
     margin-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 .clientCard,
@@ -236,8 +248,9 @@ code {
 }
 
 .myface {
-    width: 20rem;
+    width: 15rem;
     margin-top: 2em;
+    margin-left: 2rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -260,7 +273,8 @@ code {
         font-size: x-large;
     }
     .clientedesktop {
-        margin-top: 5em;
+        margin-top: 7rem;
+        margin-right: 5rem;
     }
     .mycontact {
         margin-bottom: 2em;
@@ -270,6 +284,10 @@ code {
     }
     .subtitulo-jomati {
         margin-right: 5vw;
+    }
+    .subtitulo-clientes {
+        font-size: 15em;
+        padding: .1em;
     }
     .jomatiMenu {
         width: 100%;

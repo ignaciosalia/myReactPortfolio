@@ -29,7 +29,7 @@ export default class Presentacion extends React.Component{
                             <Card.Img   variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                             <Card.Body >
                                 <Card.Title className="cardtitle">
-                                    <Link to="/Carrera"> Me dedico a crear experiencias únicas</Link>
+                                    <Link to="/Carrera"> Conoce mi experiencia</Link>
                                 </Card.Title>
                                 <Card.Text className="cardtext">
                                     Ayudo a que ganes la confianza de tus clientes
@@ -38,9 +38,8 @@ export default class Presentacion extends React.Component{
                         </Card>
                         </Col>
                     </Row>
-                
-                <Clientes className="clientedesktop" ></Clientes>
                 </Container>
+                <Clientes className="clientedesktop" ></Clientes>
                 <div className="mycontact">
                     <Contacto></Contacto>
                 </div>

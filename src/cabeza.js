@@ -9,7 +9,7 @@ import { Link } from "react-router-dom"
 const Cabeza = () => {
     return(
     <>
-        <Navbar collapseOnSelect  expand="lg" bg="dark" variant="dark" sticky="top">
+        <Navbar collapseOnSelect  expand="lg" bg="light" variant="light" sticky="top">
             <Container>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse>
