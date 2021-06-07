@@ -18,8 +18,21 @@ export default class Carrera extends React.Component{
                     <Card.Img variant="top" src={"https://ignaciosalia.github.io/images/Logo-JislCorp-sin-fondo.png"}/>
                     <Card.Body>
                     <Card.Title className="cardtitle"> <a href="https://www.facebook.com/JislcorpAtencionClientes">JislCorp</a> </Card.Title>
-                    <Card.Text  className="cardtext">Da Click y conoce más</Card.Text>
+                    <Card.Text  className="cardtext">Desarrollador Web</Card.Text>
                     <Card.Footer className="cardfooter">Desde el 2020 he buscado constuir mi propia consultoria de desarrollo web y de comercio en linea 
+                    </Card.Footer>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '18rem', margin:'2rem'}}>
+                    <Card.Img variant="top" src={"https://ignaciosalia.github.io/images/Untitled-twitter-rosa-claro.jpg"}/>
+                    <Card.Body>
+                    <Card.Title className="cardtitle"> <p> Jomati</p></Card.Title>
+                    <Card.Text  className="cardtext">
+                       Desarrollador Web
+                    </Card.Text>
+                    <Card.Footer className="cardfooter">
+                        Con Jomati he tenido la suerte de dejar expresar mi creativida y dejar ver lo que soy capaz. La pagina de Jomait y sus redes han sido un lugar 
+                        en el que he aprendido mucho y ver como sus clientes se sienten contentos al ver todo lo que han logrado 
                     </Card.Footer>
                     </Card.Body>
                 </Card>
@@ -28,7 +41,7 @@ export default class Carrera extends React.Component{
                     <Card.Body>
                     <Card.Title className="cardtitle"> <p> SMS México</p></Card.Title>
                     <Card.Text  className="cardtext">
-                       Ingeniero
+                       Ingeniero Desarrollador Web
                     </Card.Text>
                     <Card.Footer className="cardfooter">
                         En SMS fui parte del equipo de ingeniría para la linea de ASUS, mi resposabilidad era generar material de entrenamiento, fui parte del equipo
@@ -41,7 +54,7 @@ export default class Carrera extends React.Component{
                     <Card.Body>
                     <Card.Title className="cardtitle"> <p>Lypsa</p></Card.Title>
                     <Card.Text  className="cardtext">
-                        Ingeniero celular
+                        Ingeniero
                     </Card.Text>
                     <Card.Footer className="cardfooter">
                         Me encargaba de la reparación y del mantenimiento de equipos celulares para la marca LG, entre mis responsabilidades estaba el diagnostico y presentación
