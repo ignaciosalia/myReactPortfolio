@@ -179,7 +179,7 @@ code {
 }
 
 .yomero {
-    font-size: 400%;
+    font-size: 350%;
     font-weight: bolder;
     color: var(--color-titulo);
 }
@@ -347,4 +347,5 @@ code {
         Crear Sección Restaurtantes, hacer referencia a La era como ejemplo
         Crear sección Clientes fisicos
         Agregar fondo dínamico a la pagina
-        Crear pagina de José Salia, ya está diseñada en Figma sólo falta pasarla a React*/
+        Crear pagina de José Salia, ya está diseñada en Figma sólo falta pasarla a React
+        Contacto convertilo en funtion, crear una mejor pagina de contacto con Contact form*/
