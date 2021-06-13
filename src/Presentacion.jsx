@@ -21,15 +21,15 @@ export default class Presentacion extends React.Component{
                             <h1 className="yomero">Ignacio Salia</h1>
                             <p className="queChingaosHago">Tus ideas importan, vamos a crear algo asombroso </p>
                             
-                            <button className="butonContacto"> <Link to="/ContactForm"> ¿Comenzamos? </Link></button>
+                            <button > <Link to="/ContactForm" className="butonContacto"> ¿Comenzamos? </Link></button>
                         </div>
                         </Col>
                         <Col md="auto" >
                         <Card className="myface">
-                            <Card.Img   variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
+                            <Card.Img  className="presentacion-mi-cara" variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                             <Card.Body >
                                 <Card.Title className="cardtitle">
-                                    <Link to="/Carrera"> Conoce mi experiencia</Link>
+                                    <Link className="presentacion-link-carrera" to="/Carrera"> Conoce mi experiencia</Link>
                                 </Card.Title>
                                 <Card.Text className="cardtext">
                                     Ayudo a que ganes la confianza de tus clientes

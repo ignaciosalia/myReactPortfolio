@@ -9,9 +9,9 @@ import { Link } from "react-router-dom"
 const Cabeza = () => {
     return(
     <>
-        <Navbar collapseOnSelect  expand="lg" bg="light" variant="light" sticky="top">
+        <Navbar collapseOnSelect className="main-navbar" expand="lg" bg="dark" variant="dark" sticky="top">
             <Container>
-                <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+                <Navbar.Toggle aria-controls='responsive-navbar-nav' bg="rgba(212, 43, 275)" />
                 <Navbar.Collapse>
                     <Nav>
                         <Nav.Link className="menuelement" as={Link} to="/" >Home</Nav.Link>
