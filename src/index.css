@@ -160,7 +160,8 @@ code {
 .cardfooter,
 .rowContactMember,
 .carrera,
-.subtitulo-clientes {
+.subtitulo-clientes,
+.menuelement {
     font-family: 'DotGothic16', sans-serif;
 }
 
@@ -187,6 +188,7 @@ code {
 .queChingaosHago {
     font-size: 250%;
     color: var(--color-titulo);
+    background-color: whitesmoke;
 }
 
 .redes {
@@ -253,12 +255,33 @@ code {
     margin-left: 2rem;
 }
 
+.presentacion-mi-cara:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.main-navbar {
+    background-color: rgb(34, 143, 233);
+    color: rgb(26, 90, 209);
+}
+
+.menuelement {
+    font-size: 2.5em;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.menuelement:hover {
+    color: var(--jomati-color);
+}
+
+.presentacion-link-carrera {
+    color: var(--color-titulo);
+}
+
 @media screen and (min-width: 1000px) {
     .firstimpresion {
         margin-bottom: -10em;
-    }
-    .menuelement {
-        font-size: 2em;
     }
     .yomero {
         font-size: 8em;
@@ -268,9 +291,11 @@ code {
         margin-bottom: 5em;
     }
     .butonContacto {
-        background-color: rgb(211, 212, 255);
+        color: var(--color-titulo);
+        background-color: whitesmoke;
         border-style: none;
-        font-size: x-large;
+        font-size: 2em;
+        font-weight: bolder;
     }
     .clientedesktop {
         margin-top: 7rem;
@@ -325,6 +350,12 @@ code {
     .nosotros-imagen {
         width: 70vw;
         margin-left: 10vw;
+    }
+    .cards-clientes {
+        margin: 50%
+    }
+    .cardsCarrera {
+        margin-left: 10%;
     }
 }
 

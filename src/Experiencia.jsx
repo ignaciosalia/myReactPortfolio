@@ -10,9 +10,8 @@ export default class Experiencia extends React.Component{
         return(
             <div className="carrera"> 
                  <h1 className="yomero">Vida profesional, vida educativa</h1>
-                <CardGroup>
+                <CardGroup >
                 <Card style={{ width: '18rem', margin:'2em'}}>
-                    
                     <Card.Body>
                         <Card.Title className="cardtitle">
                             <Link to="/Carrera" > Mi carrera Profesional</Link>

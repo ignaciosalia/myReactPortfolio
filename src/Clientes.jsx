@@ -14,8 +14,8 @@ export default class Clientes extends React.Component{
     render(){
         return(
             <div className="ultimosClientes">
-                <h2 className="subtitulo-clientes">Clientes</h2>
-                <CardGroup>
+                <h2 className="subtitulo-clientes">Proyectos</h2>
+                <CardGroup className="cards-clientes">
                 <Card className="clientCard" style={{ width: '18rem', margin:'2rem'}}>
                     <Card.Img variant="top" src={"https://ignaciosalia.github.io/images/menu-la-era.png"}/>
                     <Card.Body>
