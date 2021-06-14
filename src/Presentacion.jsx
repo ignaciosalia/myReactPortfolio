@@ -38,11 +38,12 @@ export default class Presentacion extends React.Component{
                         </Card>
                         </Col>
                     </Row>
-                </Container>
+                    </Container>
                 <Clientes className="clientedesktop" ></Clientes>
                 <div className="mycontact">
                     <Contacto></Contacto>
                 </div>
+               
             </div>
         );
     }
