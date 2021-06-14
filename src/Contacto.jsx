@@ -9,7 +9,7 @@ export default class Contacto extends React.Component{
     render(){
         /**Agegar los iconos con awesome font usando React awesome */
         return (
-            <div className="redes">
+            <div className="redes-all">
                   <div className="redes">
                   <h2 className="subtitulo">Aquí me encuentras</h2>
                 <Container >
