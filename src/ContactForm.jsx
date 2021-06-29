@@ -3,6 +3,8 @@ import axios from 'axios'
 import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
 import Container  from 'react-bootstrap/Container'
 import Contacto from './Contacto'
+import Form from 'react-bootstrap/Form'
+import FormControl from 'react-bootstrap/FormControl'
 
 
 export default class ContactForm extends React.Component{
@@ -50,20 +52,18 @@ export default class ContactForm extends React.Component{
         return(
             <Container className="firstImpresion">
                 <form action="">
-                <div>
-                    <label htmlFor="name" className="cardtext">Nombre: </label>
-                    <input type="text" id="name" value={this.state.name} onChange={this.handleChange.bind(this)} required />
-                </div>
-                <div>
-                    <label htmlFor="email" className="cardtext">Email:  </label>
-                    <input type="text" id="email" value={this.state.email} onChange={this.handleChange.bind(this)} required />
-                </div>
-                <div>
-                    <label htmlFor="message" className="cardtext">Mensaje:  </label>
-                    <textarea name="message" id="message" cols="30" rows="10" value={this.state.message} onChange={this.handleChange.bind(this)}
-                     required/>
-                </div>
-                <button type="submit" onClick={this.handleSubmit.bind(this)}>{buttonText}</button>
+                <Form className="contac-form">
+                    <Form.Group controlId="formBasicEmail">
+                        <Form.Label className="contact-text">Nombre:</Form.Label>
+                        <Form.Control type="text" placeholder="Nombre"/>
+                        <Form.Label className="contact-text">Email:</Form.Label>
+                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Text className="text-muted" />
+                        <Form.Label className="contact-text">Mensaje</Form.Label>
+                        <Form.Control as="textarea" row={3}/>
+                    </Form.Group>
+                    <button className="contact-button" type="submit" onClick={this.handleSubmit.bind(this)}>{buttonText}</button>
+                </Form>
              </form>
              <Contacto></Contacto>
             </Container>

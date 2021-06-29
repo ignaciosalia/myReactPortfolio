@@ -162,9 +162,11 @@ code {
 .rowContactMember,
 .carrera,
 .subtitulo-clientes,
-.menuelement {
+.menuelement,
+.subtitulo-contacto {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: lighter;
+    color: var(--color-titulo);
 }
 
 .ultimosClientes {
@@ -176,11 +178,12 @@ code {
     text-align: center;
     font-weight: lighter;
     font-size: 3.5em;
-    padding-top: 1em;
 }
 
 .presentacion {
     background-color: var(--color-titulo);
+    margin-top: -5vh;
+    margin-bottom: -50vh;
 }
 
 .yomero {
@@ -202,7 +205,7 @@ code {
     margin-top: 0em;
     padding: 1em;
     background-color: var(--fondo-subsection);
-    border-radius: 1em;
+    border-radius: 1rem;
     color: var(--color-subtitulo);
 }
 
@@ -215,10 +218,12 @@ code {
 .cardtitle a {
     font-size: 150%;
     font-weight: bolder;
+    color: var(--color-titulo);
 }
 
 .cardtext {
     font-weight: bold;
+    color: var(--color-titulo);
 }
 
 .rowContactMember {
@@ -285,6 +290,38 @@ code {
     color: var(--color-titulo);
 }
 
+.firstImpresion {
+    background-color: var(--color-titulo);
+    color: whitesmoke;
+    padding: 2em;
+    margin-top: 2em;
+    border-radius: 1rem;
+}
+
+.contact-text {
+    font-size: 1.5em;
+}
+
+.contact-button {
+    background-color: white;
+    color: var(--color-titulo);
+    border: none;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.contact-button:hover {
+    background-color: var(--color-titulo);
+    color: white;
+}
+
+.subtitulo-contacto {
+    color: whitesmoke;
+    font-size: 2.5em;
+}
+
 @media screen and (min-width: 1000px) {
     body {
         background-color: var(--color-titulo);
@@ -314,6 +351,9 @@ code {
     .mycontact {
         margin-bottom: 5em;
         padding-bottom: 2em;
+    }
+    .ultimosClientes {
+        margin-top: 0;
     }
     .jomati {
         margin-left: 5vw;
@@ -362,7 +402,8 @@ code {
         margin-left: 10vw;
     }
     .cards-clientes {
-        margin: 10%
+        margin: 10%;
+        margin-top: -2vh;
     }
     .cardsCarrera {
         margin-left: 10%;
