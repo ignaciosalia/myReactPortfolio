@@ -40,7 +40,7 @@ export default class Carrera extends React.Component{
                         </Row>
                         <Row>
                         <Card style={{ width: '25rem', margin:'2rem'}}>
-                            <Card.Img variant="top" src={"https://lh3.googleusercontent.com/proxy/8q0LIHMBB6gGOEtszKen8JMKwS8REFGIvhm1ID23AGzWHtPhkSPXqQk3Qgzs2FHg2YEk0V2CyLEY9-pI9MMn0LsPgeIV4R7DmSZkuMAM_lGF-t5bJWo_0g"}/>
+                            <Card.Img variant="top" src={"https://lh3.googleusercontent.com/proxy/COHLi_TL9fuZ4RUZZY-P_OAxtiCMArlZ84DP8CkGY0AipsDP7ssm4Dklb5A_UluLq7uPqCtFpBt0rGsPEIJc1khpw_tVffeA2QitF5O9il4AZJLtPjNmKQ"}/>
                             <Card.Body>
                             <Card.Title className="cardtitle"> <p> SMS México</p></Card.Title>
                             <Card.Text  className="cardtext">

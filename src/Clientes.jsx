@@ -6,6 +6,7 @@ import CardColumns from 'react-bootstrap/CardColumns'
 import { CardImg } from 'react-bootstrap'
 import { Link } from "react-router-dom"
 import { ExternalLink } from 'react-external-link'
+import Carrera from './Carrera'
 
 /**Todo this is where I don't know if I should use or not popovers to show case this part, maybe I will make a test, or maybe toast
  * 
@@ -50,6 +51,7 @@ export default class Clientes extends React.Component{
                     </Card.Body>
                 </Card>
                 </CardGroup>
+                <Carrera></Carrera>
             </div>
         );
     }

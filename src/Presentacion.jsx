@@ -20,7 +20,6 @@ export default class Presentacion extends React.Component{
                         <div className="myself">
                             <h1 className="yomero">Ignacio Salia</h1>
                             <p className="queChingaosHago">Tus ideas importan, vamos a crear algo asombroso </p>
-                            
                             <button > <Link to="/ContactForm" className="butonContacto"> ¿Comenzamos? </Link></button>
                         </div>
                         </Col>
@@ -40,9 +39,7 @@ export default class Presentacion extends React.Component{
                     </Row>
                     </Container>
                 <Clientes className="clientedesktop" ></Clientes>
-                <div className="mycontact">
-                    <Contacto></Contacto>
-                </div>
+                
                
             </div>
         );
