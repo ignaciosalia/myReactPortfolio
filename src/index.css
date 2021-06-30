@@ -302,19 +302,33 @@ code {
     font-size: 1.5em;
 }
 
+.buton-presentacion-contacto,
 .contact-button {
     background-color: white;
     color: var(--color-titulo);
     border: none;
+    border-style: none;
     font-size: 1.5em;
     margin-bottom: 1rem;
     border-radius: 0.3rem;
     padding: 0.5rem;
 }
 
-.contact-button:hover {
+.buton-presentacion-contacto {
+    color: var(--color-titulo);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.contact-button:hover,
+.buton-presentacion-contacto:hover,
+.link-presentaction:hover {
     background-color: var(--color-titulo);
     color: white;
+}
+
+.link-presentaction {
+    color: var(--color-titulo);
 }
 
 .subtitulo-contacto {

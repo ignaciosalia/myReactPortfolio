@@ -20,7 +20,7 @@ export default class Presentacion extends React.Component{
                         <div className="myself">
                             <h1 className="yomero">Ignacio Salia</h1>
                             <p className="queChingaosHago">Tus ideas importan, vamos a crear algo asombroso </p>
-                            <button > <Link to="/ContactForm" className="butonContacto"> ¿Comenzamos? </Link></button>
+                            <button className="buton-presentacion-contacto"> <Link to="/ContactForm" className="link-presentaction"> ¿Comenzamos? </Link></button>
                         </div>
                         </Col>
                         <Col md="auto" >
