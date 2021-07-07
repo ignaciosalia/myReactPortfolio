@@ -18,9 +18,9 @@ export default class Clientes extends React.Component{
                 <h2 className="subtitulo-clientes">Proyectos</h2>
                 <CardGroup className="cards-clientes">
                 <Card className="clientCard" style={{ width: '18rem', margin:'2rem'}}>
-                    <Card.Img variant="top" src={"https://ignaciosalia.github.io/images/menu-la-era.png"}/>
+                    <Card.Img variant="top" src={"https://i.pinimg.com/originals/39/20/61/392061934f6b4ff787d1fec400096abd.jpg"}/>
                     <Card.Body>
-                    <Card.Title className="cardtitle"  > <ExternalLink href="https://ignaciosalia.github.io/Restaurantelaera/menulaera.html">Restaurante La Era</ExternalLink> </Card.Title>
+                    <Card.Title className="cardtitle"  > <Link to="/restaurantes">Restaurantes</Link> </Card.Title>
                     <Card.Text  className="cardtext">Da Click y conoce más</Card.Text>
                     <Card.Footer className="cardfooter">Este cliente necesitaba una manera higienica de presentar su menú. Ahora la tiene y sus clientes conectan y recomiendan más...
                     </Card.Footer>
@@ -39,7 +39,7 @@ export default class Clientes extends React.Component{
                     </Card.Body>
                 </Card>
                 <Card className="clientCard" style={{ width: '18rem', margin:'2rem'}}>
-                    <Card.Img variant="top" src={"https://ignaciosalia.github.io/images/v-card-example.png"}/>
+                    <Card.Img variant="top" src={"https://i.pinimg.com/originals/b3/93/ef/b393efaf00fc379ddbe3aa13fec07409.jpg"}/>
                     <Card.Body>
                     <Card.Title className="cardtitle"> <a href="">José Ruben</a></Card.Title>
                     <Card.Text  className="cardtext">

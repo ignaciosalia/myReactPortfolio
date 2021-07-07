@@ -11,6 +11,7 @@ import Carrera from './Carrera'
 import ContacForm from './ContactForm'
 import ContactForm from './ContactForm';
 import Jomati from './Jomati';
+import Restaurantes from './restaurantes'
 
 function App() {
   /**Agregar los estilos con react bootstrap */
@@ -24,6 +25,7 @@ function App() {
         <Route path='/Carrera' component={Carrera}/>
         <Route path='/ContactForm' component={ContactForm}/>
         <Route path="/Jomati" component={Jomati}/>
+        <Route path="/restaurantes" component={Restaurantes}/>
         <Presentacion></Presentacion>
       </Switch>
     </div>

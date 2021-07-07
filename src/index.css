@@ -163,7 +163,8 @@ code {
 .carrera,
 .subtitulo-clientes,
 .menuelement,
-.subtitulo-contacto {
+.subtitulo-contacto,
+.restaurantes-body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: lighter;
     color: var(--color-titulo);
@@ -334,6 +335,46 @@ code {
 .subtitulo-contacto {
     color: whitesmoke;
     font-size: 2.5em;
+}
+
+.restaruantes-main-title {
+    color: var(--color-titulo);
+    font-size: 10em;
+    font-weight: medium;
+}
+
+.restarurantes-div {
+    background-color: var(--color-titulo);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+}
+
+.restaurantes-subtitle,
+.restaurantes-subtitle-2 {
+    text-align: right;
+    color: white;
+    font-size: 7em;
+    margin-left: 35vw;
+}
+
+.restaurantes-subtitle-2 {
+    text-align: left;
+    margin-left: 0vw;
+}
+
+.restaurantes-descripcion-servicios {
+    color: white;
+    font-size: 3em;
+    margin-top: 11vh;
+}
+
+.restaurnate-image {
+    width: 20vw;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 
 @media screen and (min-width: 1000px) {
