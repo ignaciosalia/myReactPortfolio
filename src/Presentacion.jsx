@@ -38,9 +38,7 @@ export default class Presentacion extends React.Component{
                         </Col>
                     </Row>
                     </Container>
-                <Clientes className="clientedesktop" ></Clientes>
-                
-               
+                <Clientes className="clientedesktop" ></Clientes> 
             </div>
         );
     }
