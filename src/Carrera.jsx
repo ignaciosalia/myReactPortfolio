@@ -14,7 +14,7 @@ export default class Carrera extends React.Component{
                     <h1 className="yomero">My Professional Life</h1>
                     <p className="queChingaosHago">I dedicate my life to programming and Computing </p>
                     <CardGroup className="cardsCarrera">
-                        <Row className="cardsCarrera">
+                        <Row >
                         <Card style={{ width: '25rem', margin:'2rem'}}>
                             <Card.Img variant="top" src={"https://ignaciosalia.github.io/images/Logo-JislCorp-sin-fondo.png"}/>
                             <Card.Body>
