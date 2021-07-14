@@ -15,14 +15,15 @@ export default class Clientes extends React.Component{
     render(){
         return(
             <div className="ultimosClientes">
-                <h2 className="subtitulo-clientes">Proyectos</h2>
+                <h2 className="subtitulo-clientes">Projects</h2>
                 <CardGroup className="cards-clientes">
                 <Card className="clientCard" style={{ width: '18rem', margin:'2rem'}}>
-                    <Card.Img variant="top" src={"https://i.pinimg.com/originals/39/20/61/392061934f6b4ff787d1fec400096abd.jpg"}/>
+                    <Card.Img variant="top" src={"https://i.pinimg.com/564x/09/b8/a0/09b8a09ff572aa6805d7e913a2406d99.jpg"}/>
                     <Card.Body>
-                    <Card.Title className="cardtitle"  > <Link to="/restaurantes">Restaurantes</Link> </Card.Title>
-                    <Card.Text  className="cardtext">Da Click y conoce más</Card.Text>
-                    <Card.Footer className="cardfooter">Este cliente necesitaba una manera higienica de presentar su menú. Ahora la tiene y sus clientes conectan y recomiendan más...
+                    <Card.Title className="cardtitle"  > <Link to="/restaurantes">Small Businesses</Link> </Card.Title>
+                    <Card.Text  className="cardtext">Click and Know more ...</Card.Text>
+                    <Card.Footer className="cardfooter">
+                        I help small businesses get an online presence, I create sites that a just to their budget
                     </Card.Footer>
                     </Card.Body>
                 </Card>
@@ -31,22 +32,22 @@ export default class Clientes extends React.Component{
                     <Card.Body>
                     <Card.Title className="cardtitle">  <Link to="/Jomati"> Jomati</Link></Card.Title>
                     <Card.Text  className="cardtext">
-                       Da click y conoce más
+                    Click and Know more ...
                     </Card.Text>
                     <Card.Footer className="cardfooter">
-                        Jomati, es una pequeña empresa de diseño de piezas de decoración, tiene un estilo único y necesitaban que sus redes lo reflejaran
+                        Jomati, is my sisters and I family business, they create amazing interior design ceramic pieces, expoxy decorations and more
                     </Card.Footer>
                     </Card.Body>
                 </Card>
                 <Card className="clientCard" style={{ width: '18rem', margin:'2rem'}}>
-                    <Card.Img variant="top" src={"https://i.pinimg.com/originals/b3/93/ef/b393efaf00fc379ddbe3aa13fec07409.jpg"}/>
+                    <Card.Img variant="top" src={"https://i.pinimg.com/564x/de/bb/ae/debbae60c83bd768b9440582b6d9005c.jpg"}/>
                     <Card.Body>
-                    <Card.Title className="cardtitle"> <a href="">José Ruben</a></Card.Title>
+                    <Card.Title className="cardtitle"> <a href="">Consulting and Marketing</a></Card.Title>
                     <Card.Text  className="cardtext">
-                        Conoce el caso de José y como su tarjete ayudo a crecer sus ventas
+                    Click and Know more ...
                     </Card.Text>
                     <Card.Footer className="cardfooter">
-                        Para los profesionales de las ventas, una tarjeta digital ayuda a crecer sus ventas.
+                        Sometimes other developers and teams need help with their projects, and here I'm to help them
                     </Card.Footer>
                     </Card.Body>
                 </Card>

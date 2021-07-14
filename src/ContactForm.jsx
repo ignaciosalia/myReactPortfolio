@@ -54,12 +54,12 @@ export default class ContactForm extends React.Component{
                 <form action="">
                 <Form className="contac-form">
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Label className="contact-text">Nombre:</Form.Label>
+                        <Form.Label className="contact-text">Name:</Form.Label>
                         <Form.Control type="text" placeholder="Nombre"/>
                         <Form.Label className="contact-text">Email:</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" />
                         <Form.Text className="text-muted" />
-                        <Form.Label className="contact-text">Mensaje</Form.Label>
+                        <Form.Label className="contact-text">Mesasage</Form.Label>
                         <Form.Control as="textarea" row={3}/>
                     </Form.Group>
                     <button className="contact-button" type="submit" onClick={this.handleSubmit.bind(this)}>{buttonText}</button>

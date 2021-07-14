@@ -227,6 +227,10 @@ code {
     color: var(--color-titulo);
 }
 
+.cardfooter {
+    font-size: 1.3em;
+}
+
 .rowContactMember {
     text-align: center;
 }

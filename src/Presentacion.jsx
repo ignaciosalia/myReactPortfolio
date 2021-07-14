@@ -19,8 +19,8 @@ export default class Presentacion extends React.Component{
                         <Col>
                         <div className="myself">
                             <h1 className="yomero">Ignacio Salia</h1>
-                            <p className="queChingaosHago">Tus ideas importan, vamos a crear algo asombroso </p>
-                            <button className="buton-presentacion-contacto"> <Link to="/ContactForm" className="link-presentaction"> ¿Comenzamos? </Link></button>
+                            <p className="queChingaosHago">Your Ideas matter, lets create something awesome </p>
+                            <button className="buton-presentacion-contacto"> <Link to="/ContactForm" className="link-presentaction"> Lets Start! </Link></button>
                         </div>
                         </Col>
                         <Col md="auto" >
@@ -28,10 +28,10 @@ export default class Presentacion extends React.Component{
                             <Card.Img  className="presentacion-mi-cara" variant="top" src={"https://pbs.twimg.com/profile_images/1380321175214071808/Arp6kg7Q_400x400.jpg"} />
                             <Card.Body >
                                 <Card.Title className="cardtitle">
-                                    <Link className="presentacion-link-carrera" to="/Carrera"> Conoce mi experiencia</Link>
+                                    <Link className="presentacion-link-carrera" to="/Carrera"> Know all my experience</Link>
                                 </Card.Title>
                                 <Card.Text className="cardtext">
-                                    Ayudo a que ganes la confianza de tus clientes
+                                    I help you grow your only presences, and your business
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -11,8 +11,8 @@ export default class Carrera extends React.Component{
         return(
             <div className="carrera">
                  <Container className="firstImpresion">
-                    <h1 className="yomero">Mi vida profesional</h1>
-                    <p className="queChingaosHago">La he dedicado a las IT</p>
+                    <h1 className="yomero">My Professional Life</h1>
+                    <p className="queChingaosHago">I dedicate my life to programming and Computing </p>
                     <CardGroup className="cardsCarrera">
                         <Row className="cardsCarrera">
                         <Card style={{ width: '25rem', margin:'2rem'}}>
@@ -20,7 +20,7 @@ export default class Carrera extends React.Component{
                             <Card.Body>
                             <Card.Title className="cardtitle"> <a href="https://www.facebook.com/JislcorpAtencionClientes">JislCorp</a> </Card.Title>
                             <Card.Text  className="cardtext">Desarrollador Web</Card.Text>
-                            <Card.Footer className="cardfooter">Desde el 2020 he buscado constuir mi propia consultoria de desarrollo web y de comercio en linea 
+                            <Card.Footer className="cardfooter">Since 2020 I have been working in create my own web development consulting company 
                             </Card.Footer>
                             </Card.Body>
                         </Card>
@@ -32,8 +32,7 @@ export default class Carrera extends React.Component{
                             Desarrollador Web
                             </Card.Text>
                             <Card.Footer className="cardfooter">
-                                Con Jomati he tenido la suerte de dejar expresar mi creativida y dejar ver lo que soy capaz. La pagina de Jomait y sus redes han sido un lugar 
-                                en el que he aprendido mucho y ver como sus clientes se sienten contentos al ver todo lo que han logrado 
+                                With Jomati I have been very fortunate to let all my creativity be free and make things that only has been capable in this organization
                             </Card.Footer>
                             </Card.Body>
                         </Card>
@@ -44,11 +43,10 @@ export default class Carrera extends React.Component{
                             <Card.Body>
                             <Card.Title className="cardtitle"> <p> SMS México</p></Card.Title>
                             <Card.Text  className="cardtext">
-                            Ingeniero Desarrollador Web
+                            Engineer 
                             </Card.Text>
                             <Card.Footer className="cardfooter">
-                                En SMS fui parte del equipo de ingeniría para la linea de ASUS, mi resposabilidad era generar material de entrenamiento, fui parte del equipo
-                                que creo la platforma para entrenar a los tecnicos en las nuevas propuestas de la marca 
+                                With SMS I was part of the training team and brand experts, during my time there I was an expert for ASUS, creating and editing the training platform for new technicians
                             </Card.Footer>
                             </Card.Body>
                         </Card>
@@ -57,11 +55,10 @@ export default class Carrera extends React.Component{
                             <Card.Body>
                             <Card.Title className="cardtitle"> <p>Lypsa</p></Card.Title>
                             <Card.Text  className="cardtext">
-                                Ingeniero
+                                Engineer
                             </Card.Text>
                             <Card.Footer className="cardfooter">
-                                Me encargaba de la reparación y del mantenimiento de equipos celulares para la marca LG, entre mis responsabilidades estaba el diagnostico y presentación
-                                de reportes de reparación del día, semana y del mes. 
+                                I was a team leader for one of the repair centers, I translate technical documentation, help the team to achieve the KPIs and present reports to management team
                             </Card.Footer>
                             </Card.Body>
                         </Card>
@@ -72,11 +69,10 @@ export default class Carrera extends React.Component{
                             <Card.Body>
                             <Card.Title className="cardtitle"> <p>Tecnica 62</p></Card.Title>
                             <Card.Text  className="cardtext">
-                                Desarrollador Web
+                                Web developer
                             </Card.Text>
                             <Card.Footer className="cardfooter">
-                                EL sitio se construyo para que las escuelas del estado de México cumplieran con la reforma educativa, premitía a los profesores a llevar
-                                un control de calificaciones, actividades y planes de trabajo, calculaba las calificaciones y promedios finales
+                            My first project as a web developer, it start as a college assignment and grow to be a piece of software that was sell
                             </Card.Footer>
                             </Card.Body>
                         </Card>

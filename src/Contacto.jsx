@@ -11,7 +11,7 @@ export default class Contacto extends React.Component{
         return (
             <div className="redes-all">
                   <div className="redes">
-                  <h2 className="subtitulo-contacto">Aquí me encuentras</h2>
+                  <h2 className="subtitulo-contacto">You can find me here!</h2>
                 <Container >
                     <Row>
                         <Col className="rowContactMember"> <Link to="/Experiencia"> <i className="fa fa-address-card"></i> </Link> </Col>
