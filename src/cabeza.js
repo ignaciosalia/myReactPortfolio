@@ -15,7 +15,7 @@ const Cabeza = () => {
                 <Navbar.Collapse>
                     <Nav>
                         <Nav.Link className="menuelement" as={Link} to="/" >Home</Nav.Link>
-                        <Nav.Link className="menuelement" as={Link} to="/Clientes" >Clientes</Nav.Link>
+                        <Nav.Link className="menuelement" as={Link} to="/Clients" >Clientes</Nav.Link>
                         <Nav.Link className="menuelement" as={Link} to="/ContactForm" >Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
